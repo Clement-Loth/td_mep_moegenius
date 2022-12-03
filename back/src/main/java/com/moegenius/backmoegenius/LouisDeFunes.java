@@ -28,5 +28,13 @@ public class LouisDeFunes {
         return this.citation;
     }
 
+    public void setFilm(String film){
+        this.film = film;
+    }
+
+    public String getFilm(){
+        return this.film;
+    }
+
 
 }
