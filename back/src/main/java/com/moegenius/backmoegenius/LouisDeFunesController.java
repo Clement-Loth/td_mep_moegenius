@@ -33,8 +33,9 @@ class LouisDeFunesController {
     @PostMapping("/newldf")
     void createNewCitation(@RequestParam String citation, String film){
         LouisDeFunes ldf = new LouisDeFunes();
-        
-
+        ldf.setCitation(citation);
+        ldf.setFilm(film);
+        louisrep.save(ldf);
     }
 
 
