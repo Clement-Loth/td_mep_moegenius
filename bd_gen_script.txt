@@ -1,0 +1,6 @@
+DROP TABLE IF EXIST louisdefunes;
+CREATE TABLE louisdefunes(
+	id long PRIMARY KEY,
+	citation text,
+	film varchar(60)
+);
